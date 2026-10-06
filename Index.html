@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Búfalo | Carnicería y Cremería</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Georgia,serif;color:#f7ead0;background:#24170f;
+  background-image:
+    linear-gradient(rgba(35,20,10,.78),rgba(35,20,10,.88)),
+    url("https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1800&q=80");
+  background-size:cover;background-attachment:fixed;background-position:center;
+}
+header{min-height:390px;display:flex;align-items:center;justify-content:center;text-align:center;padding:35px}
+.hero{
+  max-width:850px;padding:45px 25px;border:3px solid #d19a4a;
+  background:rgba(34,19,10,.78);box-shadow:0 12px 35px #0008
+}
+.badge{font-size:18px;letter-spacing:5px;color:#e4b76b}
+h1{font-size:clamp(52px,12vw,100px);color:#e7bd72;text-shadow:4px 4px #3b2110;margin:10px 0}
+.hero h2{font-size:clamp(20px,4vw,34px);text-transform:uppercase}
+.hero p{margin:18px auto;max-width:600px;font-size:18px;line-height:1.6}
+nav{position:sticky;top:0;z-index:5;background:#160d08ee;border-bottom:2px solid #b47a35;text-align:center;padding:15px}
+nav a{color:#f3d49a;text-decoration:none;margin:0 12px;font-weight:bold}
+section{max-width:1100px;margin:auto;padding:60px 20px}
+.title{text-align:center;margin-bottom:35px}
+.title h2{font-size:38px;color:#e0ad5f;text-transform:uppercase}
+.title p{margin-top:8px;color:#d9c19a}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{
+  background:linear-gradient(145deg,#3a2415,#21130c);
+  border:2px solid #8f5d29;border-radius:12px;padding:24px;
+  box-shadow:0 8px 20px #0008;position:relative
+}
+.card .icon{font-size:42px}
+.card h3{font-size:23px;color:#f0c777;margin:10px 0}
+.card p{color:#dfcba8;line-height:1.5;min-height:48px}
+.price{font-size:26px;color:#fff1c8;font-weight:bold;margin-top:15px}
+.btn{
+  display:inline-block;margin-top:15px;padding:11px 18px;border-radius:7px;
+  background:#9c6329;color:#fff;text-decoration:none;font-weight:bold
+}
+.btn:hover{background:#c2853c}
+.info{
+  background:#21130cdd;border:2px solid #8f5d29;border-radius:12px;
+  padding:30px;text-align:center;line-height:2;font-size:18px
+}
+.contact{display:flex;gap:18px;justify-content:center;flex-wrap:wrap}
+footer{text-align:center;background:#120a06;padding:30px;border-top:2px solid #8f5d29;color:#cdb58d}
+.small{font-size:14px;color:#bda27a;margin-top:8px}
+@media(max-width:600px){
+ nav a{margin:0 5px;font-size:14px}
+ section{padding:45px 14px}
+ .hero{padding:35px 15px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hero">
+    <div class="badge">🤠 CARNICERÍA • CREMERÍA 🤠</div>
+    <h1>EL BÚFALO</h1>
+    <h2>Calidad con sabor a viejo oeste</h2>
+    <p>Las mejores carnes, quesos y productos para llevar el sabor del rancho hasta tu mesa.</p>
+    <a class="btn" href="#productos">🥩 Ver productos</a>
+</div>
+</header>
+<nav>
+  <a href="#productos">Productos</a>
+  <a href="#nosotros">Nosotros</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+<section id="productos">
+  <div class="title">
+<header>
+<div class="hero">
+    <div class="badge"></div>
+    <p>En cremeria y carniceria el Bufalo nos preocupamos por tu salud y te ofrecemos productos hechos artesanalmente con ingredientes 100% naturales porque el sabor esta en lo natular y lo natular siempre sera calidad</p>
+    </div>
+</header>
+
+
+
+    <h2>🥩 Carnicería</h2>
+    <p>Espacios listos para poner tus productos y precios.</p>
+  </div>
+
+  <div class="grid">
+    <!-- DUPLICA O EDITA ESTAS TARJETAS -->
+    <div class="card">
+      <div class="icon">🥩</div>
+      <h3>chorizo</h3>
+      <p>tenemos chorizo picado,chorizo molido,chorizo argentino,chorizo español</p>
+      <div class="price">$120  / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🥩</div>
+      <h3>cecina</h3>
+      <p>suavidad incomparable</p>
+      <div class="price">$260 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+ <div class="card">
+      <div class="icon">🥩</div>
+      <h3>bistec de puerco</h3>
+      <p>corte delgado de carne de cerdo</p>
+      <div class="price">$120 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+<div class="card">
+      <div class="icon">🥩</div>
+      <h3>carne enchilada</h3>
+      <p>carne de cerdo con una deliciosa mezcla de chiles y especias</p>
+      <div class="price">$120 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🥩</div>
+      <h3>cocido de rez</h3>
+      <p>un sabor unico</p>
+      <div class="price">$150 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🥩</div>
+      <h3>jamon san rafael</h3>
+      <p>jamon de pierna con sabor suave y textura firme</p>
+      <div class="price">$220 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+<div class="card">
+      <div class="icon">🥩</div>
+      <h3>jamon fud de pavo</h3>
+      <p>suave practico y delicioso </p>
+      <div class="price">$132 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+<div class="card">
+      <div class="icon">🥩</div>
+      <h3>jamon fud de pierna</h3>
+      <p>un savor suave y una textura agradable</p>
+      <div class="price">$160 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+<div class="card">
+      <div class="icon">🥩</div>
+      <h3>jamon viva convinado</h3>
+      <p>delicioso jamon suave y fresco</p>
+      <div class="price">$128 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+<div class="card">
+      <div class="icon">🥩</div>
+      <h3>molida de puerco </h3>
+      <p>fresca y suave</p>
+      <div class="price">$100 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+<div class="card">
+      <div class="icon">🥩</div>
+      <h3>molida de rez </h3>
+      <p>libre de grasa y libre de nervios</p>
+      <div class="price">$200 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="title">
+    <h2>🧀 Cremería</h2>
+    <p>También puedes cambiar estos productos por los reales.</p>
+  </div>
+<div class="grid">
+    <div class="card">
+      <div class="icon">🧀</div>
+      <h3>queso de aro</h3>
+      <p>queso fresco de sabor suave</p>
+      <div class="price">$18 x pieza</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+
+    <div class="card">
+      <div class="icon">🧀</div>
+      <h3>Quesillo natular</h3>
+      <p>calidad y sabor</p>
+      <div class="price">$160 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🧀</div>
+      <h3>Quesillo comercial</h3>
+      <p>exelente para desebral</p>
+      <div class="price">$128 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+<div class="card">
+      <div class="icon">🥛</div>
+      <h3>crema natular</h3>
+      <p>calidad y sabor</p>
+      <div class="price">$60 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🧈</div>
+      <h3>Mantequilla</h3>
+      <p>natular hecha casera</p>
+      <div class="price">$15 x 100 gramos</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+    <div class="card">
+      <div class="icon">🧀</div>
+      <h3>queso jarocho </h3>
+      <p>ideal para freir</p>
+      <div class="price">$120 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+<div class="card">
+      <div class="icon">🧀</div>
+      <h3>queso panela </h3>
+      <p>delicioso y fresco</p>
+      <div class="price">$120 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+
+<div class="card">
+      <div class="icon">🧀</div>
+      <h3>queso mozzarella </h3>
+      <p>textura suave y sabor delicado</p>
+      <div class="price">$200 / kg</div>
+      <a class="btn" href="https://wa.me/5210000000000">Pedir</a>
+    </div>
+  </div>
+</section>
+
+<section id="nosotros">
+  <div class="title"><h2>🤠 Sobre El Búfalo</h2></div>
+  <div class="info">
+    <p>En <strong>El Búfalo</strong> ofrecemos productos de carnicería y cremería para tu hogar.</p>
+    <p>Calidad, buen servicio y sabor que se respeta. 🐂</p>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="title"><h2>📍 Encuéntranos</h2></div>
+  <div class="info">
+    <p>📍 <strong>Dirección:</strong> calle 18 poniente numero 1843 entre via puebla y ramon caballero/p>
+    <p>🕐 <strong>Horario:</strong>De 8am a 10pm</p>
+    <p>📞 <strong>Teléfono:</strong>238 166 3624</p>
+    <div class="contact">
+      <a class="btn" href="https://wa.me/5210000000000">📲 WhatsApp</a>
+      <a class="btn" href="#productos">🥩 Ver productos</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong>🐂 CARNICERÍA Y CREMERÍA EL BÚFALO</strong>
+  <div class="small">Calidad que viene del rancho. 🤠</div>
+  <div class="small">© 2026 El Búfalo</div>
+</footer>
+
+</body>
+  </html>
